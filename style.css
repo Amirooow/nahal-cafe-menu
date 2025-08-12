@@ -1,0 +1,153 @@
+:root{
+  --red-icons : #db2664;
+  --gray : #959595;
+  --bg-color : #05090e;
+  --card-bg : #0f151c;
+}
+
+* {
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-size: 18px;
+  font-style: normal;
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: white;
+  /* display: flex;
+  justify-content: center; */
+}
+
+#appWrapper {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  max-width: 700px;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+#name {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+#iconContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center ;
+  width: 100%;
+  color: var(--red-icons);
+  margin-top: -10px;
+}
+
+#iconContainer #leftIcons img {
+  width: 60px;
+  margin-bottom: 18px;
+}
+
+#iconContainer #rightIcons i {
+  font-size: 24px;
+  margin-left: 5px;
+}
+
+#menuCategory {
+  display: flex;
+  gap: 40px;
+  color: var(--gray);
+  overflow-x:auto;
+  white-space: nowrap;
+  scrollbar-width: none;
+  flex-shrink: 0;
+  width: 100%;
+  direction: rtl;
+  cursor: pointer;
+}
+
+#menuCategory>div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.redDot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: var(--red-icons);
+}
+
+#menuCategory::-webkit-scrollbar {
+  display: none;
+}
+
+#menuCategory div{
+  flex: 0 0 auto;
+}
+
+.container {
+  display: flex;
+  overflow-x: auto;
+  white-space: nowrap;
+  gap: 12px;
+  padding: 10px;
+  scrollbar-width: none;
+}
+
+#cardsContainer {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 50px 10%;
+  margin-top: 4rem;
+}
+
+.card {
+  max-width: 100%;
+  height: 180px;
+  background-color: var(--card-bg);
+  border-radius: 8%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  font-size: 14px;
+}
+
+.card .imageBox img {
+  /* width: 100px; */
+  /* border: 1px solid orange; */
+  /* position: absolute; */
+  /* object-fit: cover; */
+}
+
+.imageBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -30px;
+  width: 100px;
+  height: 100px;
+}
+
+.card .itemName {
+  margin-bottom: 1.5rem;
+  margin-top: 1rem;
+}
+
+.card .price {
+  background-color: var(--red-icons);
+  padding: 5px 10px;
+  border-radius: 0.4rem;
+  font-size: 16px;
+}
