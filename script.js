@@ -6,7 +6,14 @@ let test = document.querySelector('.fruitJuice');
 let specialIcecream = [ 
     {name : 'معجون' , price : '200000' , img : './image/maajoon.png'} ,
     {name : 'کیک بستنی ویژه' , price : '160000' , img : './image/cakebastani vije.png'} , 
-    { name : 'کیک بستنی' , price :'115000' , img : './image/cake bastani.png'}, { name : 'شیر موز' , price :'70000' , img : './image/shirmoz.png'} , { name : 'شیرموز پسته' , price :'100000' , img : './image/shirpeste.png'} , { name : 'شیر موز ویژه' , price :'160000' , img : './image/new/shirmoz vije.png'} , { name : 'شیک' , price :'90000' , img : './image/shake.png'} , { name : 'آیس پک' , price :'80000' , img : './image/ice pack.png'} , { name : 'فالوده بستنی' , price :'60000' , img : './image/faludebastani.png'} , { name : 'آب هویج بستنی' , price :'50000' , img : './image/havijbastani.png'}
+    { name : 'کیک بستنی' , price :'115000' , img : './image/new/cake bastani.png'},
+    { name : 'شیر موز' , price :'70000' , img : './image/shirmoz.png'} ,
+    { name : 'شیرموز پسته' , price :'100000' , img : './image/shirpeste.png'} ,
+    { name : 'شیر موز ویژه' , price :'160000' , img : './image/new/shir moz vige.png'} ,
+    { name : 'شیک' , price :'90000' , img : './image/shake.png'} ,
+    { name : 'آیس پک' , price :'80000' , img : './image/ice pack.png'} ,
+    { name : 'فالوده بستنی' , price :'60000' , img : './image/faludebastani.png'} ,
+    { name : 'آب هویج بستنی' , price :'50000' , img : './image/havijbastani.png'}
 ]
 
 let cake = [ 
