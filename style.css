@@ -125,7 +125,7 @@ body {
 }
 
 .card .imageBox img {
-  /* width: 100px; */
+  width: 75px;
   /* border: 1px solid orange; */
   /* position: absolute; */
   object-fit: cover;
