@@ -125,10 +125,11 @@ body {
 }
 
 .card .imageBox img {
-  width: 75px;
+  width: 85px;
+  height: 85px;
   /* border: 1px solid orange; */
   /* position: absolute; */
-  object-fit: cover;
+  object-fit:scale-down;
 }
 
 .imageBox {
@@ -136,8 +137,8 @@ body {
   justify-content: center;
   align-items: center;
   margin-top: -30px;
-  width: 75px;
-  height: 75px;
+  max-width: 85px;
+  max-height: 85px;
 }
 
 .card .itemName {
