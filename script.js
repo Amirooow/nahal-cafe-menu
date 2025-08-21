@@ -17,6 +17,7 @@ let specialIcecream = [
     {name : 'آیس پینک' , price : '130000' , img : './image/new/ice pink.png'} ,
     {name : 'شاک شکولات' , price : '130000' , img : './image/new/shock chocolate.png'} , 
 ]
+loadingItems(specialIcecream)
 
 let cake = [ 
     {name : 'ساچر' , price : '60000' , img : './image/new/sacher.png'} ,
@@ -103,7 +104,7 @@ menuCategory.addEventListener('click' , (e)=>{
 
 
 function loadingItems(category){
-console.log('lllllllllllll');
+console.log('');
 
     category.forEach(e => {
     let cardDiv = document.createElement("div");
