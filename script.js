@@ -20,29 +20,29 @@ let specialIcecream = [
 loadingItems(specialIcecream)
 
 let cake = [ 
-    {name : 'ساچر' , price : '60000' , img : './image/new/sacher.png'} ,
-    {name : 'هویج گردو' , price : '50000' , img : './image/new/havij gerdoo.png'} , 
+    {name : 'ساچر' , price : '80000' , img : './image/new/sacher.png'} ,
+    {name : 'هویج گردو' , price : '80000' , img : './image/new/havij gerdoo.png'} , 
     { name : 'کوکی موکا ', price :'40000' , img : './image/new/coocy.png'} ,
     { name : 'کوکی رژیمی ', price :'45000' , img : './image/new/coockey.png'} ,
-    { name : 'موچی ', price :'115000' , img : './image/new/moochi.png'} ,
-    { name : 'جار کیک ', price :'115000' , img : './image/new/deser.png'} ,
-    { name : 'شیرینی تر ', price :'115000' , img : './image/new/shirini tar.png'} ,
-    { name : 'نون خامه ای ', price :'115000' , img : './image/new/bombi.png'} ,
+    { name : 'موچی ', price :'95000' , img : './image/new/moochi.png'} ,
+    { name : 'جار کیک ', price :'90000' , img : './image/new/deser.png'} ,
+    { name : 'شیرینی تر ', price :'295000' , img : './image/new/shirini tar.png'} ,
+    { name : 'نون خامه ای ', price :'295000' , img : './image/new/bombi.png'} ,
 ]
 
 let softIceCream = [ 
-    {name : 'بستنی دستگاهی' , price : '80000' , img : './image/new/ghifi.png'} ,
-    {name : 'بستنی دو رنگ ' , price : '80000' , img : './image/new/ghifi 2 rang.png'} , 
+    {name : 'بستنی دستگاهی' , price : '30000' , img : './image/new/ghifi.png'} ,
+    {name : 'بستنی دو رنگ ' , price : '40000' , img : './image/new/ghifi 2 rang.png'} , 
     { name : ' قیفی پسته ای ', price :'60000' , img : './image/new/ghifi peste e.png'} ,
     { name : ' بستنی ژلاتو ', price :'20000' , img : './image/new/scope.png'} ,
 ]
 
 
 let hotBar = [ 
-    {name : 'اسپرسو' , price : '60000' , img : './image/new/ghahve.png'} ,
-    {name : ' لاته' , price : '50000' , img : './image/new/capo.png'} , 
-    { name : 'آفوگاتو', price :'115000' , img : './image/new/afogato2.png'} ,
-    { name : 'نوشیدنی گرم ', price :'115000' , img : './image/new/hot chocolate.png'} ,
+    {name : 'اسپرسو' , price : '30000' , img : './image/new/ghahve.png'} ,
+    {name : ' لاته' , price : '70000' , img : './image/new/capo.png'} , 
+    { name : 'آفوگاتو', price :'70000' , img : './image/new/afogato2.png'} ,
+    { name : 'نوشیدنی گرم ', price :'55000' , img : './image/new/hot chocolate.png'} ,
 ]
 
 let juice = [ 
